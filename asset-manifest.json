@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Trip-planner-website/static/css/main.c2787ec3.css",
+    "main.js": "/Trip-planner-website/static/js/main.8c10fc36.js",
+    "static/js/787.5f71b12e.chunk.js": "/Trip-planner-website/static/js/787.5f71b12e.chunk.js",
+    "static/media/Hyderabad.jpg": "/Trip-planner-website/static/media/Hyderabad.335a3fe660ee50c261ba.jpg",
+    "static/media/train_offer.jpg": "/Trip-planner-website/static/media/train_offer.820bf66b0dfc46a02526.jpg",
+    "static/media/twitter_logo.jpg": "/Trip-planner-website/static/media/twitter_logo.e4ac3a949248f8da4590.jpg",
+    "static/media/hotel_offer.jpg": "/Trip-planner-website/static/media/hotel_offer.8d036e1ed1522525a69f.jpg",
+    "static/media/background3.jpg": "/Trip-planner-website/static/media/background3.a818f847e8de4f96c682.jpg",
+    "static/media/Pune.jpg": "/Trip-planner-website/static/media/Pune.d77b5e47619270a41823.jpg",
+    "static/media/Delhi.jpg": "/Trip-planner-website/static/media/Delhi.c6da60a770088c06eec1.jpg",
+    "static/media/flight_offer.jpg": "/Trip-planner-website/static/media/flight_offer.7d6daa64ebd2cb5976e7.jpg",
+    "static/media/Ahmedabad.jpg": "/Trip-planner-website/static/media/Ahmedabad.0ae703b79b466fe46ffb.jpg",
+    "static/media/train.jpg": "/Trip-planner-website/static/media/train.7ebf3bf519085d8a94df.jpg",
+    "static/media/user1.jpg": "/Trip-planner-website/static/media/user1.915fa42ce0de02abd2b2.jpg",
+    "static/media/airlines_icon.png": "/Trip-planner-website/static/media/airlines_icon.ba69dc0a86b19e35fc31.png",
+    "static/media/flights.png": "/Trip-planner-website/static/media/flights.bf017e8d80ae31cad45e.png",
+    "static/media/holidayPackages.jpeg": "/Trip-planner-website/static/media/holidayPackages.e9a9387d3bdd19cac1f8.jpeg",
+    "static/media/hotel.png": "/Trip-planner-website/static/media/hotel.bd78c7a538d7aa4eb9dc.png",
+    "static/media/ba.jpg": "/Trip-planner-website/static/media/ba.fb9911c7e9ad9f68df32.jpg",
+    "static/media/slick.svg": "/Trip-planner-website/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Trip-planner-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Trip-planner-website/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Trip-planner-website/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Trip-planner-website/index.html",
+    "main.c2787ec3.css.map": "/Trip-planner-website/static/css/main.c2787ec3.css.map",
+    "main.8c10fc36.js.map": "/Trip-planner-website/static/js/main.8c10fc36.js.map",
+    "787.5f71b12e.chunk.js.map": "/Trip-planner-website/static/js/787.5f71b12e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2787ec3.css",
+    "static/js/main.8c10fc36.js"
+  ]
+}
