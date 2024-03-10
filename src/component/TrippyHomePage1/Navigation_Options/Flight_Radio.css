@@ -1,0 +1,33 @@
+/* Common styles for both container and radio buttons */
+.flight_type_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.flight_type_radio-buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.flight_type_radio-buttons label {
+  margin-right: 10px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .flight_type_container {
+    flex-direction: column; /* Stack items vertically for smaller screens */
+    align-items: stretch; /* Stretch items to full width */
+  }
+
+  .flight_type_radio-buttons {
+    flex-direction: column; /* Stack radio buttons vertically for smaller screens */
+  }
+
+  .flight_type_radio-buttons label {
+    margin-right: 0; /* Remove margin between radio buttons for smaller screens */
+    margin-bottom: 5px; /* Add spacing below each radio button */
+  }
+}

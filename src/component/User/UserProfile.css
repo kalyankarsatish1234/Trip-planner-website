@@ -1,0 +1,62 @@
+.userprofile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    border: 3px solid rgb(25, 87, 154);
+    border-radius: 15px;
+    background-color: #f8f9fa; /* Change background color */
+    font-family: Arial, sans-serif;
+
+    /* Define CSS variables here */
+    --col1: #0d6efd;
+    --col2: gray;
+    --col3: #cecece;
+}
+
+.userprofile h2 {
+    position: relative;
+   
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.userprofile p {
+    color: var(--col3); /* Use variable for color */
+    line-height: 1.6;
+}
+
+.userprofilein {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+}
+
+.left,
+.right {
+    width: 45%;
+    border: 1px solid var(--col3); /* Use variable for border color */
+    border-radius: 5px;
+    min-height: 50vh;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1000px) {
+    .left,
+    .right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 500px){
+    .left,
+    .right {
+        width: 97%;
+    }
+}

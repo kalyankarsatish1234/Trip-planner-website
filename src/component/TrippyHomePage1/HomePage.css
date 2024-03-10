@@ -1,0 +1,63 @@
+/* Common styles for the container-nav-options */
+.container-nav-options {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+  }
+  
+  .flight-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: -3%;
+    padding: 10px;
+    max-width: 100%; /* Set a maximum width to ensure responsiveness */
+    width: 80%; /* Ensure the width is always 100% of the parent container */
+    height: auto; /* Allow the height to adjust based on content */
+    border: 3px solid rgb(25, 87, 154);
+    border-radius: 15px;
+    padding-top: 60px;
+    background-color: ghostwhite;
+    z-index: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .search_button_div{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  
+  .search_button{
+    height: 15%;
+    width: 25%;
+    border-radius: 10px;
+    background-color: rgb(106, 106, 227);
+    border-radius: 1.5rem;
+    
+  }
+  
+  /* Add media query for smaller screens */
+  @media only screen and (max-width: 600px) {
+    .card {
+      padding-top: 40px; /* Adjust padding for smaller screens */
+      margin-top: -5%; /* Adjust margin for smaller screens */
+    }
+  
+    .search_button {
+      width: 80%; /* Adjust width for smaller screens */
+    }
+  
+    .container-nav-options {
+      text-align: center; /* Center text for smaller screens */
+    }
+   
+  }
+  

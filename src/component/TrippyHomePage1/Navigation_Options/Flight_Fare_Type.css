@@ -1,0 +1,84 @@
+/* Common styles for flight_fare_type_container and its child elements */
+.flight_fare_type_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  height: 25%;
+  text-align: left;
+}
+.wrap_div{
+  display: flex;
+  width: 60%;
+}
+
+.flight_fare_type_radio-buttons {
+  display: flex;
+  padding: 5px;
+  height: 60%;
+  width: 80%;
+}
+
+.flight_fare_type_radio-buttons label {
+  display: flex;
+  margin-right: 5px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #aeaeb7;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 11px;
+  width: 20%;
+}
+
+.radio-buttons input {
+  margin-right: 5px;
+  
+}
+
+/* Styles for flight_trending_flight */
+.flight_trending_flight {
+  display: flex;
+  align-items: center;
+}
+
+/* Styles for flight_trending_flight_button */
+.flight_trending_flight_button {
+  margin-left: 2px;
+  margin-right: 2px;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: #aeaeb7;
+  border-radius: 5px;
+  text-decoration: none;
+  height: 50%;
+  font-size: 11px;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .flight_fare_type_container {
+    flex-direction: column; /* Stack child elements vertically for smaller screens */
+    align-items: stretch; /* Stretch items to full width */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .flight_fare_type_radio-buttons {
+    flex-direction: column; /* Stack radio buttons vertically for smaller screens */
+  }
+
+  .flight_fare_type_radio-buttons label {
+    margin-right: 0; /* Remove margin between radio buttons for smaller screens */
+    margin-bottom: 5px; /* Add spacing below each radio button */
+  }
+
+  .flight_trending_flight {
+    flex-direction: column; /* Stack trending flight items vertically for smaller screens */
+    align-items: stretch; /* Stretch items to full width */
+  }
+
+  .flight_trending_flight_button {
+    margin: 2px 0; /* Adjust margin for smaller screens */
+  }
+}

@@ -1,0 +1,33 @@
+/* Container for datepicker */
+.datepicker-container {
+  text-align: left;
+  vertical-align: top;
+  align-items: center;
+  margin: auto;
+  border-radius: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+/* Styles for the datepicker input */
+.datepicker {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  margin: 5px;
+  font-size: 20px;
+  height: 85%;
+  width: 85%;
+}
+
+/* Styles for the datepicker wrapper */
+.react-datepicker-wrapper {
+  height: 100%;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .datepicker {
+    width: 90%; /* Adjust the width for smaller screens */
+  }
+}

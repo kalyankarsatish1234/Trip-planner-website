@@ -1,0 +1,226 @@
+.footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 0 0 0;
+  background: #e7e7e7;
+}
+
+.footer .footerData {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  padding: 10px 150px;
+}
+
+.footer .footerData h1 {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.footer .footerData p {
+  font-size: 12px;
+}
+
+.footer .footerTerms {
+  padding: 25px 150px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  background: #e7e7e7;
+}
+
+.footer .footerTerms .footerCard {
+  padding: 10px;
+  gap: 20px;
+}
+
+.footer .footerTerms .footerCard h1 {
+  font-size: 15px;
+  margin-bottom: 40px;
+  font-weight: bold; /* Updated to make h1 tags bold */
+}
+
+.footer .footerTerms .footerCard p {
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.footer .footerLastBx {
+  height: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  padding: 0 130px;
+}
+
+.footer .footerLastBx .footerIcons {
+  display: flex;
+  gap: 30px;
+  padding: 20px 40px;
+  font-size: 35px;
+}
+
+.footer .footerLastBx .footerIcons i {
+  color: white;
+}
+
+.footer .footerLastBx .footerCopyrightbx {
+  gap: 40px;
+  text-align: end;
+  padding: 20px 40px;
+}
+
+.footer .footerLastBx .footerCopyrightbx h1 {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer .footerLastBx .footerCopyrightbx h2 {
+  color: white;
+  font-size: 15px;
+}
+
+@media all and (min-width: 401px) and (max-width: 780px) {
+  .footerData {
+    padding: 10px 5px;
+  }
+
+  .footerData h1 {
+    width: 190%;
+    text-align: left;
+  }
+
+  .footer .footerLastBx {
+    display: grid;
+  }
+
+  .footerData p {
+    width: 150%;
+    margin-left: -70px;
+    text-align: left;
+  }
+
+  .footerTerms .footerCard {
+    width: 150%;
+    margin-left: -70px;
+  }
+
+  #fotdetails {
+    display: block;
+  }
+}
+
+@media all and (min-width: 100px) and (max-width: 400px) {
+  .footerData {
+    padding: 10px 5px;
+  }
+
+  .footerData h1 {
+    width: 190%;
+    text-align: left;
+  }
+
+  .footer .footerLastBx {
+    display: grid;
+  }
+
+  .footerData p {
+    width: 300%;
+    margin-left: -90px;
+    text-align: left;
+  }
+
+  .footerTerms .footerCard {
+    width: 300%;
+    margin-left: -90px;
+  }
+
+  #fotdetails {
+    display: block;
+  }
+  .footerData a {
+    text-decoration: none;
+    color: black;
+  }
+  
+}
+
+.footer-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+  text-align: left;
+  
+}
+
+th {
+  /* background-color: #f2f2f2; */
+  color: white;
+  font-size: 16px;
+}
+
+/* Styling the links */
+td a {
+  color: white; /* Set link color to white */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Adjust table layout for smaller screens */
+@media screen and (max-width: 600px) {
+  table, thead, tbody, tr, td, th {
+    display: block;
+    
+   
+
+  }
+
+  /* Hide table headers */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    color: white;
+
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    white-space: nowrap;
+  }
+
+  td:before {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+    content: attr(data-label);
+  }
+  .white-header {
+    color: white;
+  }
+  ul {
+    list-style-type: disc;
+}
+
+}

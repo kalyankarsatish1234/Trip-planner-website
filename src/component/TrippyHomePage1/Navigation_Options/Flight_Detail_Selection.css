@@ -1,0 +1,89 @@
+/* Common styles for flight_detail_container and its child elements */
+.flight_detail_container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  height: 50%;
+}
+
+.flight_card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 20%;
+  height: 100%;
+  padding: 5px;
+  border: 1px solid black;
+  margin: 0px 0px 0px 0px;
+}
+
+#flight_travellers {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  margin: 5px;
+  font-size: 20px;
+  height: 85%;
+  width: 85%;
+}
+
+/* Style for the datalist */
+.flight_city_options {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: left;
+  margin: 5px; /* Center the container horizontally */
+  font-size: 20px;
+  height: 85%;
+  width: 85%;
+}
+
+/* Style for the options within the datalist */
+.flight_city_options option {
+  padding: 5px;
+  font-size: 14px;
+  margin: 5px;
+  cursor: pointer;
+  height: 90%;
+  width: 90%;
+}
+
+/* Style for the input when it's focused */
+.flight_city_options:focus {
+  outline: none;
+  border-color: #4caf50; /* Add a different border color or style when focused */
+}
+
+
+
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .flight_detail_container {
+    flex-direction: column; /* Stack child elements vertically for smaller screens */
+  }
+
+  .flight_card {
+    width: 100%; /* Make the flight_card take full width on smaller screens */
+  }
+
+
+  #flight_travellers {
+    width: 100%; /* Adjust the width to take full width on smaller screens */
+    margin: 5px 0; /* Adjust margin for better spacing on smaller screens */
+  }
+
+  .flight_city_options {
+    width: 100%; /* Adjust the width to take full width on smaller screens */
+    margin: 5px 0; /* Adjust margin for better spacing on smaller screens */
+  }
+
+  .flight_city_options option {
+    margin: 2px; /* Adjust margin for better spacing between options on smaller screens */
+  }
+
+  .flight_city_options:focus {
+    border-color: #4caf50; /* Adjust border color when focused on smaller screens */
+  }
+
+}

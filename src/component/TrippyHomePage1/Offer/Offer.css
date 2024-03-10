@@ -1,0 +1,60 @@
+.offer-container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  border: 3px solid rgb(25, 87, 154);
+  border-radius: 15px;
+  background-color: ghostwhite;
+}
+
+.offer1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image {
+  background-color: white;
+  height: 350px;
+  color: black;
+  border-radius: 1.5rem;
+}
+
+.image1 {
+  border-top-left-radius: 1.5rem;
+  display: flex;
+  justify-content: center;
+  background-color: #667eea;
+
+  background-color: rgb(102, 126, 234);
+}
+.image2 {
+  height: 200px;
+  width: 700px;
+  border-radius: 50%;
+}
+
+.Name {
+  border-radius: 1.5rem;
+  font-weight: 600;
+  color: black;
+}
+.button {
+  background-color: #667eea;
+
+  background-color: rgb(102, 126, 234);
+  padding: 6px;
+  border-radius: 1.5rem;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
+.offer-title {
+  background-size: cover;
+  margin-left: 10px;
+  width: auto;
+  text-align: left;
+  color: black;
+}

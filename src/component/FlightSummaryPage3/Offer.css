@@ -1,0 +1,26 @@
+.offer-container{
+    width: 500px;
+    margin: auto;
+}
+
+.offer1{
+    margin-top: 20%;
+}
+
+.image{
+   background-color: white;
+   height: 450px;
+   color: black;
+   border-radius: 1.5rem;
+}
+
+.image1{
+    border-top-left-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+.image2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}

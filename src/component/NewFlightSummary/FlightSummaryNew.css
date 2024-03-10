@@ -1,0 +1,30 @@
+.flight_summary_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 10px;
+}
+
+.complete_booking{
+    display: flex;
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: left;
+    background-color: ghostwhite;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+.flight_summary_subcontainer{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: ghostwhite;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+

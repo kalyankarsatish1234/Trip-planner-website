@@ -1,0 +1,27 @@
+.flight-fare-summary {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+  }
+  
+  .flight-fare-summary h2 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .flight-fare-summary div {
+    margin-bottom: 15px;
+  }
+  
+  .flight-fare-summary p {
+    margin: 5px 0;
+  }
+  
+  .flight-fare-summary h3 {
+    text-align: left;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,63 @@
+.show_flight_details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100px;
+  margin: 10px 10px 10px 10px;
+  border: 2px solid black;
+  background-color: white;
+}
+
+.airlines_logo_flight_id {
+  display: flex;
+  align-items: center;
+  width: 20%;
+  margin-left: 10px;
+}
+
+.airlines_logo {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px 0px 0px;
+
+  position: relative;
+}
+
+.airlines_name_id {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.flight_time {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flight_time > .departure {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: center;
+}
+
+.flight_time > .arrival {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  align-items: center;
+}
+
+.flight_price {
+  display: flex;
+  width: 30%;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+

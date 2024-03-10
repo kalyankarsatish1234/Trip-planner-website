@@ -1,0 +1,96 @@
+/* Common styles for the navigation bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  align-items: flex-start; /* Align items at the start (top) of the flex container */
+  padding: 5px;
+  width: 80%; /* Adjusted width for responsiveness */
+  max-width: 650px; /* Added max-width to prevent it from stretching too much on larger screens */
+  height: 100px;
+  border: 3px solid rgb(25, 87, 154);
+  border-radius: 15px;
+  background-color: ghostwhite;
+  z-index: 1;
+  margin: auto; /* Center the navigation bar */
+}
+
+/* Styles for individual navigation items */
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* Align items at the end (bottom) of the flex container */
+  width: 20%;
+  height: 100%;
+}
+
+/* Styles for pill content */
+.pill-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+/* Styles for navigation links */
+.nav-link {
+  color: black;
+  text-decoration: none;
+  padding: 5px 5px;
+  border-radius: 15px; /* Apply border-radius for a "pill" shape */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  width: 90%;
+  height: 95%;
+}
+
+/* Hover styles for navigation links */
+.nav-link:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Active styles for navigation links */
+.nav-link.active {
+  background-color: #0056b3;
+  color: white;
+}
+
+/* Styles for the icon */
+.icon {
+  height: 45%;
+}
+
+/* Responsive styles for smaller screens */
+@media only screen and (max-width: 600px) {
+  .nav-bar {
+    flex-direction: row; /* Stack navigation items vertically on smaller screens */
+    align-items: center; /* Center items vertically on smaller screens */
+  }
+
+  .nav-item {
+    width: 20%; /* Make each navigation item take full width on smaller screens */
+    margin-bottom: 10px; /* Add spacing between stacked navigation items */
+    font-size: smaller;
+  }
+
+  .nav-link {
+    width: 100%; /* Make navigation links take full width on smaller screens */
+  }
+
+   /* Hover styles for navigation links on smaller screens */
+   .nav-link:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+
+  /* Active styles for navigation links on smaller screens */
+  .nav-link.active {
+    background-color: #0056b3;
+    color: white;
+  }
+
+  /* Styles for the icon on smaller screens */
+  .icon {
+    height: 30%; /* Adjust the height for the icon on smaller screens */
+    margin: 10px 0; /* Add spacing around the icon on smaller screens */
+  }
+}

@@ -1,0 +1,251 @@
+
+
+@keyframes slideUpDown {
+  0%, 100% {
+    transform: translateY(0);
+    background-color: rgb(105, 81, 45); /* Adjust the background color as needed */
+  }
+  50% {
+    transform: translateY(-20px); /* Adjust the distance as needed */
+    background-color: wheat; /* Adjus wht the background color as needed */
+  }
+}
+
+
+.flight{
+  display: flex;
+  justify-content: center;
+  color: blue;
+  animation: slideUpDown 3s infinite;
+}
+.flight-info {
+  width: 80%;
+  margin: 0 auto; 
+  border: 1px solid #000; /* Specify the border properties as needed */
+  border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+
+  background-color: wheat;
+  animation: slideUpDown 3s infinite;
+}
+
+.cancellation-refund-policy-container {
+  width: 80%;
+  margin: 0 auto; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000; /* Specify the border properties as needed */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  background-color: wheat;
+  animation: slideUpDown 3s infinite;
+  
+ 
+}
+.cancel{
+  display: flex;
+  justify-content: center;
+}
+.travellerdetails {
+  width: 80%;
+  margin: 0 auto; /* This centers the element horizontally */
+  /* Add any additional styling as needed */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #000; /* Specify the border properties as needed */
+  border-radius: 10px; /* Optional: Add border-radius for rounded corners */
+  background-color: wheat;
+  animation: slideUpDown 3s infinite;
+}
+
+.travellerdetails button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #4CAF50;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  transition: background-color 0.3s ease;
+  display: flex;
+  margin-left: 10px;
+}
+
+.form1 label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form1 label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form1 input,
+.form1 select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+
+.form1 button:hover {
+  background-color: #45a049;
+}
+
+.head{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* promocode css  */
+.promocode {
+  width: 77%;
+  margin: 0 auto; /* This centers the element horizontally */
+  background-color: wheat;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: slideUpDown 3s infinite;
+}
+
+.promo{
+  display: flex;
+  justify-content: center;
+}
+
+
+.promocode h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.promocode label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.promocode select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.promocode button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.promocode button:hover {
+  background-color: #45a049;
+}
+
+.promocode p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+
+ /* faresummary css  */
+
+
+.faresummary {
+  width: 77%;
+  margin: 0 auto; /* This centers the element horizontally */
+  background-color: wheat;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: slideUpDown 2s infinite;
+}
+
+.fare{
+  display: flex;
+  justify-content:center;
+}
+
+.faresummary h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.faresummary p {
+  margin-bottom: 10px;
+}
+
+/* booking form css */
+
+.bookingform {
+  width: 77%;
+  margin: 0 auto; /* This centers the element horizontally */
+  background-color: wheat;
+  border: 1px solid black;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  animation: slideUpDown 3s infinite;
+}
+
+.booking{
+  display: flex;
+  justify-content: center;
+}
+.bookingform h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.bookingform form {
+  display: flex;
+  flex-direction: column;
+}
+
+.bookingform .form-group {
+  margin-bottom: 15px;
+}
+
+.bookingform label {
+  font-weight: bold;
+}
+
+.bookingform select,
+.bookingform input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+.bookingform button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bookingform button:hover {
+  background-color: #45a049;
+}
